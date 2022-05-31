@@ -13,8 +13,6 @@ span.company {
   margin-left: 15px;
 }
 #menuItems ul {
-  text-align: center;
-
   background-image: linear-gradient(
     rgb(65, 65, 65),
     rgb(129, 130, 133),
@@ -38,8 +36,8 @@ span.company {
   border-top: 2px solid #fff;
 }
 
+/*Main Content Starts*/
 .main-content > h1 {
-  text-align: center;
   font-weight: 700;
 }
 .main-content section {
