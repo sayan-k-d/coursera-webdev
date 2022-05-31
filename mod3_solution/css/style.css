@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bree Serif", serif;
+}
+
+span.company {
+  font-size: 2rem;
+  font-weight: 700;
+}
+#menuItems {
+  margin-left: 15px;
+}
+#menuItems ul {
+  text-align: center;
+
+  background-image: linear-gradient(
+    rgb(65, 65, 65),
+    rgb(129, 130, 133),
+    rgb(65, 65, 65)
+  );
+  padding: 10px;
+}
+#menuItems a {
+  font-size: 1.3rem;
+  transition: all 0.5s ease;
+}
+#menuItems a:hover {
+  color: aqua;
+  font-size: 2rem;
+}
+
+#menuItems hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #fff;
+}
+
+.main-content > h1 {
+  text-align: center;
+  font-weight: 700;
+}
+.main-content section {
+  background-color: #888;
+  margin-top: 2.5em;
+  height: 1000px;
+  overflow: hidden;
+}
+.main-content section > h3 {
+  text-align: center;
+}
+.main-content section > p {
+  padding: 1.5em;
+  font-size: 1.2rem;
+}
+.main-content section:last-child {
+  margin-bottom: 2.5em;
+}
